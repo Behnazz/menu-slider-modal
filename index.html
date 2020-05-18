@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>My Landing Page</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/women/76.jpg" alt=" user" class="img">
+    </div>
+    <ul>
+      <li class="nav-titles"><a href="#" class="nav-links">Home</a></li>
+      <li class="nav-titles"><a href="#" class="nav-links">Portfolio</a></li>
+      <li class="nav-titles"><a href="#" class="nav-links">Blog</a></li>
+      <li class="nav-titles"><a href="#" class="nav-links">Contact Me</a></li>
+    </ul>
+  </nav>
+  <header class="main-header">
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i>
+    </button>
+    <h1 class="header-title">My Landing Page</h1>
+    <p class="header-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, asperiores.</p>
+    <button class="cta-btn" id="open">Sign up</button>
+  </header>
+  <section class="container">
+    <h2>What is this landing page about?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam adipisci delectus tenetur reprehenderit doloribus
+      beatae iusto velit, quas ipsa, facilis fugit. Provident, enim! Iure minus necessitatibus numquam nam voluptates
+      facere?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus mollitia corrupti molestias voluptas facilis
+      earum numquam explicabo quos tempore nesciunt?</p>
+
+    <h2>Tell me more</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus tenetur ad deserunt? Quia hic sed quaerat
+      veritatis praesentium aspernatur nihil delectus, perferendis, facilis sunt eaque blanditiis mollitia laborum vel?
+      Quaerat rem dolorum minus iure quam, nobis sed tempora repudiandae incidunt?</p>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li>LifeTime Access</li>
+      <li>30 Days Money back</li>
+      <li>Tailored Customer Support</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ea nisi, libero ullam quae adipisci temporibus
+      ab iure error nam dolorem esse, aspernatur magni eveniet fuga sunt veniam. A vitae veniam labore, totam eaque
+      commodi, illum consequuntur saepe voluptates adipisci esse accusamus quia repudiandae fugiat quos tempora
+      architecto recusandae incidunt officia quasi. Sunt, natus inventore? Sit aut error tempora pariatur consectetur
+      voluptatibus, perferendis ipsum autem dolorem ullam architecto, officia itaque!</p>
+  </section>
+
+  <!-- Modal -->
+  <aside class="modal-container" id="modal">
+    <section class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <header class="modal-header">
+        <h3 class="modal-h3">Sign Up</h3>
+      </header>
+      <section class="modal-content">
+        <p>Register with us to get offfers, support and more</p>
+        <form class="modal-form">
+          <section>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name" class="form-input">
+          </section>
+          <section>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email" class="form-input">
+          </section>
+          <section>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="password" class="form-input">
+          </section>
+          <section>
+            <label for="password2">Confirm password</label>
+            <input type="password" id="password2" placeholder="password" class="form-input">
+          </section>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </section>
+    </section>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
